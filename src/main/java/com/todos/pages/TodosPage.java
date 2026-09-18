@@ -52,7 +52,7 @@ public class TodosPage extends BasePage {
 	
 	public void removeTodo() {
 	    Actions actions = new Actions(driver);
-	    actions.moveToElement(todoText).perform(); // survol nécessaire pour afficher le bouton
+	    actions.moveToElement(todoText).perform();
 	    deleteButton.click();
 	}
 
